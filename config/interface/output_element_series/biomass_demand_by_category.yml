@@ -20,13 +20,6 @@
   gquery: electricity_from_wet_biomass
   output_element_key: biomass_demand_by_category
   key: electricity_wet_biomass_demand_by_category
-- label: export
-  color: "#999999"
-  order_by: 15
-  group: wet
-  gquery: export_of_wet_biomass
-  output_element_key: biomass_demand_by_category
-  key: export_wet_biomass_demand_by_category
 - label: greengas_final_demand
   color: "#4BAF50"
   order_by: 20
@@ -78,13 +71,6 @@
   gquery: electricity_from_dry_biomass
   output_element_key: biomass_demand_by_category
   key: electricity_dry_biomass_demand_by_category
-- label: export
-  color: "#999999"
-  order_by: 110
-  group: dry
-  gquery: export_of_dry_biomass
-  output_element_key: biomass_demand_by_category
-  key: export_dry_biomass_demand_by_category
 - label: greengas_final_demand
   color: "#4BAF50"
   order_by: 115
