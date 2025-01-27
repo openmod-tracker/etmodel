@@ -129,17 +129,6 @@ Rails.application.routes.draw do
 
   get '/light' => 'light#index', as: :light
 
-  # Multi-year charts
-  resources :multi_year_charts, except: %i[new show edit update] do
-    member do
-      put :discard
-      put :undiscard
-    end
-
-    collection do
-      get :discarded
-    end
-  end
 
   # ESDL
   get  '/import_esdl'         => 'import_esdl#index'
